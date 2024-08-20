@@ -1,0 +1,47 @@
+*{
+    font-family: "Outfit";
+}
+body{
+    background-color: rgb(255, 240, 251);
+}
+main{
+    background-color:  hsl(330, 77%, 90%);
+    width:550px;
+    border-radius: 30px;
+    height:450px;
+    margin: 90px 450px 0px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgb(75, 20, 54);;
+}
+.text>h1{
+    padding: 100px 50px 20px;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(75, 20, 54);
+    
+}
+.form{
+    padding: 50px 0px;
+}
+.form>form>label{
+    padding:50px 70px 50px 69px;
+    color: rgb(75, 20, 54);
+    font-size: 140%;
+}
+
+button{
+    padding:10px 20px;
+    color:rgb(75, 20, 54);
+    background-color: hsl(300, 100%, 100%);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 50px 230px;
+    display: block;
+}
+button:hover{
+    color:rgb(245, 212, 232);
+    background-color: hsl(322, 55%, 69%);
+    transition: all 0.2s ease-out;
+    transform: scale(1.1);
+}
