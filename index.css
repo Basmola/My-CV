@@ -1,4 +1,4 @@
-main{
+.main{
     background-color: hsl(330, 77%, 90%);
     width: 700px;
     height: 450px;
@@ -7,6 +7,10 @@ main{
     box-sizing: border-box;
     border-radius: 100px;
     box-shadow: 1px 1px 20px rgb(115, 46, 76);
+}
+main{
+    display: flex;
+    justify-content: space-around;
 }
 *{
     font-family: "Outfit";
