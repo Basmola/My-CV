@@ -4,7 +4,7 @@
 body{
     background-color: rgb(255, 240, 251);
 }
-main{
+.main{
     background-color:  hsl(330, 77%, 90%);
     width:550px;
     border-radius: 30px;
@@ -12,6 +12,10 @@ main{
     margin: 90px 450px 0px;
     box-sizing: border-box;
     box-shadow: 0px 0px 20px rgb(75, 20, 54);;
+}
+main{
+    display: flex;
+    justify-content: space-around;
 }
 .text>h1{
     padding: 100px 50px 20px;
